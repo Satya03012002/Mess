@@ -3,7 +3,7 @@ import  express  from "express";
 import bodyParser from "body-parser";
 import cors from 'cors';
   import "./db/conn.js";
-
+//
 import adminRouter from "./router/adminPost/router.js";
 import menuRouter  from "./router/menuPost/router.js";
 import studentRouter from "./router/studentPost/router.js";
